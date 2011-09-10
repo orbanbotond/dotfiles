@@ -1,0 +1,4 @@
+curl -sL https://github.com/djl/vcprompt/raw/master/bin/vcprompt > ~/bin/vcprompt
+chmod 755 ~/bin/vcprompt
+
+rvm --default use 1.9.2

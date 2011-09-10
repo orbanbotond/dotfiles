@@ -1,0 +1,16 @@
+#########################################
+# Aliases and alias functions
+
+# --------------- Navigation ---------------
+alias l="ls -l"
+alias c="cd"
+alias ..="cd .."
+alias ll="ls -la"
+
+# --------------- Git ---------------
+alias gs="git status"
+function gc(){
+  git commit -a -m "$*"
+}
+
+# . ~/bin/dotfiles/bash/local_aliases

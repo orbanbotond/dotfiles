@@ -1,0 +1,15 @@
+#########################################
+# Environment specific variables
+
+export CLICOLOR=1;
+export EDITOR="mate -w"
+export SVN_EDITOR="mate -w"
+export HISTFILESIZE=9000 # the bash history should save 9000 commands
+export HISTCONTROL=ignoredups #don't put duplicate lines in the history.
+export ANT_HOME=/usr/share/java/ant-1.7.1
+export MANPATH=/opt/local/share/man:$MANPATH
+
+export PATH=/Users/boti/Documents/szakmai/java/apache-maven-3.0/bin:$PATH:/usr/sbin:/usr/local/mysql/bin:
+export PATH=/opt/local/bin:/opt/local/sbin:$PATH
+export PATH=~/bin:$PATH
+
