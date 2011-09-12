@@ -6,6 +6,7 @@ alias l="ls -l"
 alias c="cd"
 alias ..="cd .."
 alias ll="ls -la"
+alias gp="git push $*"
 
 # --------------- Git ---------------
 alias gs="git status"
@@ -13,4 +14,6 @@ function gc(){
   git commit -a -m "$*"
 }
 
-# . ~/bin/dotfiles/bash/local_aliases
+if [ -f ~/.local_aliases ]; then
+  . ~/.local_aliases
+fi
