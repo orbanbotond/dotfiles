@@ -7,6 +7,8 @@ alias c="cd"
 alias ..="cd .."
 alias ll="ls -la"
 alias gp="git push $*"
+alias gd="git diff | mate"
+alias gl="git log --graph --all --decorate --oneline"
 
 # --------------- Git ---------------
 alias gs="git status"
