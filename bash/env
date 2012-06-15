@@ -14,6 +14,6 @@ export PATH=$PATH:/usr/sbin:/usr/local/mysql/bin:
 export PATH=/opt/local/bin:/opt/local/sbin:$PATH
 export PATH=~/bin:$PATH
 
-p=$(launchctl getenv PATH)
-launchctl setenv PATH /bin:$p
+# p=$(launchctl getenv PATH)
+# launchctl setenv PATH /bin:$p
 
