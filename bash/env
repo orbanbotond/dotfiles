@@ -2,8 +2,8 @@
 # Environment specific variables
 
 export CLICOLOR=1;
-export EDITOR="mate -w"
-export SVN_EDITOR="mate -w"
+export EDITOR="subl"
+export SVN_EDITOR="subl -w"
 export HISTFILESIZE=9000 # the bash history should save 9000 commands
 export HISTCONTROL=ignoredups #don't put duplicate lines in the history.
 export ANT_HOME=/usr/share/java/ant-1.7.1
