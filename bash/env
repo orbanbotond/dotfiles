@@ -10,7 +10,7 @@ export ANT_HOME=/usr/share/java/ant-1.7.1
 export MANPATH=/opt/local/share/man:$MANPATH
 export CC=/usr/bin/gcc-4.2
 
-export PATH=$PATH:/usr/sbin:/usr/local/mysql/bin:
+export PATH=/usr/local/bin:$PATH:/usr/sbin:/usr/local/mysql/bin:
 export PATH=/opt/local/bin:/opt/local/sbin:$PATH
 export PATH=~/bin:$PATH
 
