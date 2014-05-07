@@ -80,6 +80,7 @@ fi
 # ----------------------------------- RVM -----------------------------------
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && . "$HOME/.rvm/scripts/rvm" # Load RVM function
 [[ -r $rvm_path/scripts/completion ]] && . $rvm_path/scripts/completion
+export PATH=./bin:$PATH
 
 # ----------------------------------- PROMPT CUSTOMIZATION -----------------------------------
 # Update the command prompt to be <rvm>:<current_directory>(git_branch) >

@@ -6,23 +6,17 @@ alias l="ls -l"
 alias c="cd"
 alias ..="cd .."
 alias ll="ls -la"
-alias gp="git push $*"
-alias gd="git diff | mate"
-alias gl="git log --graph --all --decorate=full --abbrev-commit --pretty --date=relative"
-alias gll="git log --graph --decorate=full --abbrev-commit --pretty --date=relative"
-
 # --------------- Git ---------------
-alias gs="git status"
-function gc(){
-  git commit -a -m "$*"
-}
+alias gl="git log --graph --all --decorate=full --abbrev-commit --pretty --date=relative"
+alias gll="git log --pretty=format:'%h %ad | %s%d [%an]' --graph --date=short"
+alias glll="git log --graph --decorate=full --abbrev-commit --pretty --date=relative"
 
 if [ -f ~/.local_aliases ]; then
   . ~/.local_aliases
 fi
 
 if [ -f `brew --prefix`/etc/bash_completion ]; then
-    . `brew --prefix`/etc/bash_completion
+  . `brew --prefix`/etc/bash_completion
 fi
 
 source ~/bin/git-completion.bash
