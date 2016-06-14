@@ -9,6 +9,9 @@ export HISTCONTROL=ignoredups #don't put duplicate lines in the history.
 export ANT_HOME=/usr/share/java/ant-1.7.1
 export MANPATH=/opt/local/share/man:$MANPATH
 
+export NVM_DIR=~/.nvm
+#$(brew --prefix nvm)/nvm.sh
+
 # Because of maverick...
 #export CC=/usr/local/bin/gcc-4.2
 export CC=clang
@@ -17,6 +20,8 @@ export CXX=clang++
 export PATH=/usr/local/bin:$PATH:/usr/sbin:/usr/local/mysql/bin:
 export PATH=/opt/local/bin:/opt/local/sbin:$PATH
 export PATH=~/bin:$PATH
+
+export PYTHONPATH=/usr/local/lib/python2.7/site-packages
 
 # p=$(launchctl getenv PATH)
 # launchctl setenv PATH /bin:$p
