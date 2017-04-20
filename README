@@ -1,1 +1,8 @@
 :)
+TODO:
+-in your .bash_profile: '. ~/.bashrc'
+-in your .bash_rc: '. ~/bin/dotfiles/bashrc'
+-install vcprompt:
+  -curl -sL https://github.com/djl/vcprompt/raw/master/bin/vcprompt > ~/bin/vcprompt
+  -chmod 755 ~/bin/vcprompt
+-install bash completion: into ~/bin/git-completion.bash copy: https://raw.githubusercontent.com/git/git/master/contrib/completion/git-completion.bash
