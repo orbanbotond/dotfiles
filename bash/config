@@ -76,6 +76,8 @@ BWHITE='\e[47m'
 if [ -f /opt/local/etc/bash_completion ]; then
     . /opt/local/etc/bash_completion
 fi
+# ----------------------------------- git completion -----------------------------------
+source ~/bin/git-completion.bash
 
 # ----------------------------------- RVM -----------------------------------
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && . "$HOME/.rvm/scripts/rvm" # Load RVM function
