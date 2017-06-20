@@ -84,6 +84,9 @@ source ~/bin/git-completion.bash
 [[ -r $rvm_path/scripts/completion ]] && . $rvm_path/scripts/completion
 export PATH=./bin:$PATH
 
+# ------ Autojump -------
+[ -f /usr/local/etc/profile.d/autojump.sh ] && . /usr/local/etc/profile.d/autojump.sh
+
 # ----------------------------------- PROMPT CUSTOMIZATION -----------------------------------
 # Update the command prompt to be <rvm>:<current_directory>(git_branch) >
 # Note that the git branch is given a special color
