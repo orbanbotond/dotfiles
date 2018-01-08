@@ -23,6 +23,8 @@ export PATH=~/bin:$PATH
 
 export PYTHONPATH=/usr/local/lib/python2.7/site-packages
 
+unset PYTHONPATH
+
 # p=$(launchctl getenv PATH)
 # launchctl setenv PATH /bin:$p
 
